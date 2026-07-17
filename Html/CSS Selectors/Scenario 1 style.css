@@ -1,0 +1,93 @@
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #25477b;
+  color: #2b2b2b;
+  line-height: 1.5;
+
+}
+
+header {
+  background-color: #1f2937;
+  padding: 0px;
+  text-align: center;
+}
+.student-card {
+  background-color: #d3dac2;
+  border-radius: 10px;
+  padding: 10px ;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 3px solid #070707;
+
+}
+
+.student-name {
+  color: #158b1b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #ffd166;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+
+.course-description {
+  color: #06a77d;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.course::after {
+  content: "Certified";
+  background-color: #06a77d;
+  color: #c4afbd;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+
+
+.student-card:first-child {
+  border: px solid #040304;
+  position: relative;
+  background-color: #c5c0c4;
+}
+.student-card:first-child::after{
+  content:"🥇top performance";
+     background:gold;
+    color:black;
+    padding:8px;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:15px;
+    border-radius:6px;
+}
+
+
+
+.student-card:nth-child(even) {
+  background-color: #eef3ff;
+}
+
+
+
+
+.enroll-btn:hover {
+  background-color: #ef476f;
+  transform: scale(1.05);
+}
+
+.description::first-letter{
+    font-size:32px;
+    color:red;
+    font-weight:bold;
+}
+.course::before{
+  content:"🎓";
+  
+}

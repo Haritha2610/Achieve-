@@ -1,0 +1,83 @@
+body{
+    font-family: Arial;
+    background:#7ad0ea;
+}
+
+#company{
+    text-align:center;
+    color:darkblue;
+    font-size:40px;
+    text-shadow:2px 2px 3px gray;
+}
+
+
+.employees{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+
+.card{
+    width: 25%;
+    height: auto;
+    background: white;
+    border: 2px solid rgba(11, 11, 11, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.employee-name{
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+.details{
+    color:blue;
+}
+
+
+
+
+.team-lead ~ .card{
+    background:#ffffcc;
+}
+
+
+.card:first-child::before{
+    content:"⭐ Star Performer";
+    display:block;
+    color:green;
+    font-weight:bold;
+    margin-bottom:10px; 
+}
+
+
+.card:last-child::before{
+    content:"🤝 Support Team";
+    display:block;
+    color:purple;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+
+.employee-name::before{
+    content:"👤 ";
+}
+
+
+.card:nth-child(even){
+    background:#e6f7ff;
+}   
+
+
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 20px rgba(255, 255, 255, 0);
+}

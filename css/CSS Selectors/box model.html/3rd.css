@@ -1,0 +1,169 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#e8e8e8;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+.container{
+display:flex;
+gap:50px;
+}
+
+.card{
+width:300px;
+height:600px;
+background:#fff;
+position:relative;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+.top{
+height:170px;
+background:#0057a7;
+border-bottom-left-radius:110px;
+border-bottom-right-radius:120px;
+}
+
+.logo{
+position:absolute;
+top:18px;
+left:50%;
+transform:translateX(-50%);
+text-align:center;
+color:#fff;
+}
+
+.logo i{
+font-size:35px;
+margin-bottom:5px;
+}
+
+.logo h2{
+font-size:18px;
+}
+
+.logo p{
+font-size:12px;
+}
+
+.photo{
+width:110px;
+height:110px;
+border-radius:50%;
+overflow:hidden;
+border:6px solid white;
+position:absolute;
+top:110px;
+left:50%;
+transform:translateX(-50%);
+box-shadow:0 0 0 5px #0057a7;
+}
+
+.photo img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.name{
+margin-top:80px;
+text-align:center;
+}
+
+.name h1{
+color:#0057a7;
+font-size:32px;
+}
+
+.name span{
+color:#666;
+font-size:14px;
+}
+.details{
+margin:25px 18px;
+line-height:2;
+font-size:18px;
+}
+
+.details span{
+margin-left:15px;
+font-weight:normal;
+}
+
+.back{
+background:#0057a7;
+color:white;
+}
+
+.curve{
+height:140px;
+background:white;
+border-bottom-left-radius:120px;
+border-bottom-right-radius:120px;
+}
+
+.logo2{
+text-align:center;
+position:absolute;
+top:18px;
+left:50%;
+transform:translateX(-50%);
+color:#0057a7;
+}
+
+.logo2 i{
+font-size:35px;
+}
+
+.barcode{
+width:120px;
+height:40px;
+margin:35px auto;
+background:repeating-linear-gradient(90deg,
+#000 0,
+#000 3px,
+#fff 3px,
+#fff 6px
+);
+}
+
+.terms{
+padding:15px;
+}
+
+.terms h3{
+margin-bottom:15px;
+}
+
+.terms ul{
+padding-left:18px;
+}
+
+.terms li{
+margin-bottom:15px;
+font-size:14px;
+}
+
+.sign{
+position:absolute;
+bottom:25px;
+width:100%;
+text-align:center;
+color:#000
+}
+
+.sign hr{
+width:120px;
+margin:auto;
+margin-bottom:8px;
+}

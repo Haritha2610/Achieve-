@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    display:flex;
+    gap:60px;
+}
+
+.card{
+    width:290px;
+    height:500px;
+    background:#fff;
+    border-radius:10px;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+.top-design{
+    position:absolute;
+    width:100%;
+    height:140px;
+    
+}
+
+.left-blue{
+    position:absolute;
+    left:-50px;
+    width:110px;
+    height:180px;
+    background:linear-gradient(#4fc3f7,#1565c0);
+    transform:skewX(-18deg);
+}
+
+.right-blue{
+    position:absolute;
+    right:-50px;
+    width:130px;
+    height:180px;
+    background:linear-gradient(#42a5f5,#3949ab);
+    transform:skewX(18deg);
+}
+
+
+.profile{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:5px solid #333;
+    overflow:hidden;
+    margin:65px auto 20px;
+    background:#fff;
+    position:relative;
+    z-index:10;
+}
+
+.profile img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+h2{
+    text-align:center;
+    margin-top:10px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.front p{
+    text-align:center;
+    color:#666;
+    margin-top:5px;
+}
+
+
+
+.company{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:35px;
+}
+
+.company i{
+    color:#1565c0;
+    font-size:30px;
+}
+
+.company h3{
+    font-size:18px;
+}
+
+.company span{
+    font-size:12px;
+    color:#666;
+}
+
+.bottom-design{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:120px;
+}
+
+.left-bottom{
+    position:absolute;
+    left:-20px;
+    bottom:-50px;
+    width:170px;
+    height:170px;
+    background:linear-gradient(#42a5f5,#1565c0);
+    transform:rotate(45deg);
+}
+
+.right-bottom{
+    position:absolute;
+    right:-20px;
+    bottom:-50px;
+    width:170px;
+    height:170px;
+    background:linear-gradient(#3949ab,#64b5f6);
+    transform:rotate(-45deg);
+}
+
+.back-logo{
+    margin-top:170px;
+}
+
+.details{
+    width:85%;
+    margin:30px auto;
+    line-height:2;
+    font-size:15px;
+}
+
+.barcode{
+    width:180px;
+    height:45px;
+    margin:auto;
+    background:repeating-linear-gradient(
+    90deg,
+    #000 0px,
+    #000 3px,
+    #fff 3px,
+    #fff 6px);
+}

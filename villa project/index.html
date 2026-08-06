@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VILLA PROJECT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Top Header -->
+    <div class="top-header border-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 d-flex">
+            <div class="me-4">
+              <i class="bi bi-envelope-fill text-orange"></i>
+              info@company.com
+            </div>
+            <div>
+              <i class="bi bi-geo-alt-fill text-orange"></i>
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m600-120-240-84-186 72q-20 8-37-4.5T120-170v-560q0-13 7.5-23t20.5-15l212-72 240 84 186-72q20-8 37 4.5t17 33.5v560q0 13-7.5 23T812-192l-212 72Zm-40-98v-468l-160-56v468l160 56Zm80 0 120-40v-474l-120 46v468Zm-440-10 120-46v-468l-120 40v474Zm440-458v468-468Zm-320-56v468-468Z"/></svg>-->
+              Sunny Isles Beach, FL 33160
+            </div>
+          </div>
+          <div class="col-lg-6 text-end social-icons">
+            <a href="#"><i class="fa-brands fa-facebook social"></i></a>
+            <a href="#"><i class="bi bi-twitter social"></i></a>
+            <a href="#"><i class="bi bi-linkedin social"></i></a>
+            <a href="#"><i class="bi bi-instagram social"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand logo" href="#"> VILLA </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Property Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <a href="#" class="visit-btn">
+            <span class="circle">
+              <i class="bi bi-calendar3"></i>
+            </span>
+            Schedule a visit
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="hero-section">
+      <div id="villaCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#villaCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#villaCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#villaCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="./images/image.png" class="d-block w-100" alt="Villa" />
+            <div class="carousel-caption">
+              <div class="location">Toronto, <span>Canada</span></div>
+              <h1>
+                HURRY! <br />
+                GET THE BEST <br />
+                VILLA FOR YOU
+              </h1>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="./images/image.png" class="d-block w-100" alt="Villa" />
+            <div class="carousel-caption">
+              <div class="location">Toronto, <span>Canada</span></div>
+              <h1>
+                HURRY! <br />
+                GET THE BEST <br />
+                VILLA FOR YOU
+              </h1>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="./images/image.png" class="d-block w-100" alt="Villa" />
+            <div class="carousel-caption">
+              <div class="location">Toronto, <span>Canada</span></div>
+              <h1>
+                HURRY! <br />
+                GET THE BEST <br />
+                VILLA FOR YOU
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Previous Button -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#villaCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <!-- Next Button -->
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#villaCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!--cards-->
+    <div class="grids">
+      <div class="card" style="width: 25rem; height: 10rem">
+        <img src="./images/img1.jpg" class="img-thumbnail" alt="..." />
+      </div>
+      <div class="card" style="width: 30rem">
+        <div class="col-lg-4"></div>
+        <h6 class="text-uppercase text-danger fw-bold">| Featured</h6>
+        <h1 class="fw-bold mt-3 mb-5">
+          Best Appartment <br />
+          & Sea View
+        </h1>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Best useful links ?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div class="accordion-body">
+                <!-- <strong>This is the first item’s accordion body.</strong> -->Get
+                <b>the best villa</b> website template in HTML, --> CSS and
+                Bootstrap for your business.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  How does this work ?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <!-- <strong>This is the second item’s accordion body.</strong>-->
+                  This section explains how the villa agency works.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  Why is Villa Agency the best ?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Villa Agency provides premium villas with excellent customer
+                  support.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Right Side -->
+
+      <div class="col-lg-4 width-150px">
+        <div class="card shadow border-0 p-3">
+          <div class="d-flex align-items-center mb-4">
+          
+
+            <div class="ms-3">
+              <h4>250 m²</h4>
+
+              <p>Total Flat Space</p>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="d-flex align-items-center mb-4">
+            
+
+            <div class="ms-3">
+              <h4>Contract</h4>
+
+              <p>Contract Ready</p>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="d-flex align-items-center mb-4">
+     
+
+            <div class="ms-3">
+              <h4>Payment</h4>
+
+              <p>Payment Process</p>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="d-flex align-items-center">
+               
+
+            <div class="ms-3">
+                 <a href="#"><i class="fa-solid fa-house-circle-check"></i></a>
+              <h4>Safety</h4>
+
+              <p>24/7 Under Control</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="video-section">
+
+    <!-- Background -->
+    <div class="overlay"></div>
+
+    <div class="container">
+      
+        <div class="text-center content">
+        
+            <p class="small-title">VIDEO VIEW</p>
+            <img src=" " alt="" class="src">
+            <h2>
+                Get Closer View &<br>
+                Different Feeling
+            </h2>
+        </div>
+
+        <!-- Video Image -->
+        <div class="video-box">
+
+            <img src="./images/img1.jpg" alt="Video">
+
+            <a href="#" class="play-btn">
+                <i class="bi bi-play-fill"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+  </body>
+</html>
